@@ -1,24 +1,14 @@
- [
 {
-    "albumId": 1,
-    "id": 1,
-    "title": "Star wars 1",
-    "url": "https://via.placeholder.com/600/92c952",
-    "body": "ภัยซ่อนเร้น",
-
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
-  {
-    "albumId": 2,
-    "id": 2,
-    "title": "Star wars 2",
-    "url": "https://via.placeholder.com/600/771796",
-    "body": "กองทัพโคลนส์จู่โจม",
-  },
-  {
-    "albumId": 3,
-    "id": 3,
-    "title": "Star wars 3",
-    "url": "https://via.placeholder.com/600/24f355",
-    "body": "ซิธชำระแค้น",
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
-  ]
+}
