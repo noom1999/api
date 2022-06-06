@@ -1,55 +1,14 @@
-
-
-
- 
-      {
-         "id":"1",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	
-      {
-         "id":"2",
-         "language": "C++",
-         "edition": "second",
-         "author": "E.Balagurusamy"
-      },
-	     {
-         "id":"3",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	     {
-         "id":"4",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	     {
-         "id":"5",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	     {
-         "id":"6",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	     {
-         "id":"7",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      },
-	     {
-         "id":"8",
-         "language": "Java",
-         "edition": "third",
-         "author": "Herbert Schildt"
-      }
-   
-
+{
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
+}
