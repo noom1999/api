@@ -10,8 +10,5 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "description": {
-    "body":{"Lorem ipsum ... sit. Ut enim ... duis." }
-}
+  }
 }
