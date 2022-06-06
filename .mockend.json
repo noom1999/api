@@ -1,69 +1,20 @@
 
 
-
 {
-  "name":[
-    {
-    "id": 01,
-    "title": "สตาร์ วอร์ส เอพพิโซด 1",
-    "description": "ภัยซ่อนเร้น",
-    "url": "https://via.placeholder.com/600/771796"
-    },
+   "book": [
+	
       {
-    "id": 02,
-    "title": "สตาร์ วอร์ส เอพพิโซด 2",
-    "description": "กองทัพโคลนส์จู่โจม",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-  {
-    "id": 03,
-    "title": "สตาร์ วอร์ส เอพพิโซด 3",
-    "description": "ซิธชำระแค้น",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-  {
-    "id": 04,
-    "title": "สตาร์ วอร์ส เอพพิโซด 4",
-    "description": "ความหวังใหม่",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-  {
-    "id": 05,
-    "title": "สตาร์ วอร์ส เอพพิโซด 5",
-    "description": "จักรวรรดิเอมไพร์โต้กลับ",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-  {
-    "id": 06,
-    "title": "สตาร์ วอร์ส เอพพิโซด 6",
-    "description": "การกลับมาของเจได",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-  {
-    "id": 07,
-    "title": "สตาร์ วอร์ส เอพพิโซด 7",
-    "description": "อุบัติการณ์แห่งพลัง",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-{
-   "id": 08,
-    "title": "สตาร์ วอร์ส เอพพิโซด 8",
-    "description": "ปัจฉิมบทแห่งเจได",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-{
-   "id": 09,
-    "title": "สตาร์ วอร์ส เอพพิโซด 9",
-    "description": "กำเนิดใหม่สกายวอล์คเกอร์",
-    "url": "https://via.placeholder.com/600/771796"
-    },
-{
-   "id": 10,
-    "title": "สตาร์ วอร์ส เอพพิโซด 10",
-    "description": "???",
-    "url": "https://via.placeholder.com/600/771796"
-    }
-  ]
+         "id":"01",
+         "language": "Java",
+         "edition": "third",
+         "author": "Herbert Schildt"
+      },
+	
+      {
+         "id":"07",
+         "language": "C++",
+         "edition": "second",
+         "author": "E.Balagurusamy"
+      }
+   ]
 }
-
-
