@@ -1,8 +1,1 @@
-{
-  "name": {
-    "string": [
-      "Thor",
-      "Loki"
-    ]
-  }
-}
+{ "likes": { "int": { "min": 0, "max": 1000000 } } }
