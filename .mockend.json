@@ -4,9 +4,9 @@
       "regexp": "https://picsum\\.photos/seed/49260/1920/270"
     },
     "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
+      "String": {
+        "minLength",
+        "maxLength"
       }
     },
     "body": {
