@@ -1,35 +1,36 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/49260/1920/270"
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "johndoe@abc.com",
+      "gender": "Male",
+      "status": "Terminated"
     },
-    "title": {
-      "String": {
-        "minLength",
-        "maxLength"
-      }
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "janedoe@abc.com",
+      "gender": "Female",
+      "status": "New"
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
+    {
+      "id": 3,
+      "first_name": "Alice",
+      "last_name": "Doe",
+      "email": "alicedoe@abc.com",
+      "gender": "Female",
+      "status": "Leaving"
     },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+    {
+      "id": 4,
+      "first_name": "Bob",
+      "last_name": "Doe",
+      "email": "bobdoe@abc.com",
+       "gender": "Male",
+      "status": "Active"
     }
-  }
+  ]
 }
